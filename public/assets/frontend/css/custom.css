@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+	color: #666666;
+	font-family: 'Roboto', sans-serif;
+}
+a{text-decoration: none; color: #0D70A7;}
+.font-size-72{font-size: 72px;}
+.font-size-64{font-size: 64px;}
+.font-size-60{font-size: 60px;}
+.font-size-50{font-size: 50px;}
+.font-size-48{font-size: 48px;}
+.font-size-46{font-size: 46px;}
+.font-size-42{font-size: 42px;}
+.font-size-40{font-size: 40px;}
+.font-size-36{font-size: 36px;}
+.font-size-34{font-size: 34px;}
+.font-size-32{font-size: 32px;}
+.font-size-30{font-size: 30px;}
+.font-size-28{font-size: 28px;}
+.font-size-24{font-size: 24px;}
+.font-size-22{font-size: 22px;}
+.font-size-21{font-size: 21px;}
+.font-size-20{font-size: 20px;}
+.font-size-18{font-size: 18px;}
+.font-size-16{font-size: 16px;}
+.font-size-15{font-size: 15px;}
+.font-size-14{font-size: 14px;}
+.font-size-13{font-size: 13px;}
+.font-size-12{font-size: 12px;}
+.font-size-10{font-size: 10px;}
+.font-size-8{font-size: 8px;}
+
+.font-weight-300{font-weight: 300;}
+.font-weight-400{font-weight: 400;}
+.font-weight-500{font-weight: 500;}
+.font-weight-600{font-weight: 600;}
+.font-weight-700{font-weight: 700;}
+.font-weight-800{font-weight: 800;}
+.font-weight-900{font-weight: 900;}
+
+.g-vgap233{height: 233px;clear: both;}
+.g-vgap200{height: 200px;clear: both;}
+.g-vgap150{height: 150px;clear: both;}
+.g-vgap130{height: 130px;clear: both;}
+.g-vgap100{height: 100px;clear: both;}
+.g-vgap80{height: 80px;clear: both;}
+.g-vgap70{height: 70px;clear: both;}
+.g-vgap60{height: 60px;clear: both;}
+.g-vgap55{height: 55px;clear: both;}
+.g-vgap50{height: 50px;clear: both;}
+.g-vgap45{height: 45px;clear: both;}
+.g-vgap40{height: 40px;clear: both;}
+.g-vgap30{height: 30px;clear: both;}
+.g-vgap20{height: 20px;clear: both;}
+.g-vgap15{height: 15px;clear: both;}
+.g-vgap10{height: 10px;clear: both;}
+.g-vgap7{height: 7px;clear: both;}
+.g-vgap5{height: 5px;clear: both;}
+.g-vgap3{height: 3px;clear: both;}
+
+.text-info{color: #00AEEF !important;}
+.text-warning{color: #F7941D !important;}
+.text-grey{color: #4E5D77 !important;}
+.fa-dark:before{color: #666666 !important;}
+
+.bg-info{background-color: #00AEEF !important;}
+.bg-warning{background-color: #F7941D !important;}
+.bg-warning-light{background-color: #F7F6F4 !important;}
+.bg-light{background-color: #EEEEEE !important;}
+.bg-lighter{background-color: #FAFAFA !important;}
+.bg-dark{background-color: #4E5D77 !important;}
+.bg-cat-blue{background-color: #1C375B !important;}
+
+.border-1x{border-width: 1px !important;}
+.border-3x{border-width: 3px !important;}
+.border-14x{border-width: 14px !important;}
+.border-card{border-width: 1px 1px 30px 1px !important;}
+.border-info{border-color: #00AEEF !important;}
+.border-dark{border-color: #4E5D77 !important;}
+
+.btn-warning{background-color: #F7941D !important; color: #ffffff !important; transition: ease-in-out 0.4s;}
+.btn-warning:hover{opacity: 0.8 !important;}
+
+#digitalSpaceTopNav .nav-link.active,
+.breadcrumb-item.active {color: #F7941D !important}
+
+.home-banner-section {background: url(../images/home-banner-bg.jpg) no-repeat 50% 50%/cover;}
+.courses-section {background: url(../images/course-section-bg.jpg) no-repeat 50% 50%/cover;}
+.tutor-section{background: url(../images/tutor-section-bg.jpg) no-repeat 50% 50%/cover;}
+.contact-section{background: url(../images/contact-section-bg.jpg) no-repeat 50% 50%/cover;}
+.breadcrumb-section{background: url(../images/breadcrumb-bg.jpg) no-repeat 50% 50%/cover;}
+
+.owl-carousel .owl-dots {
+	text-align: center;
+}
+.owl-carousel .owl-dots button span{
+	width:10px;
+    height:10px;
+    margin:5px 7px;
+    background: white !important;
+    display:block;
+    border-radius: 50%;
+
+}
+.owl-carousel .owl-dots button.active span
+{
+    width:10px;
+    height:10px;
+    margin:5px 7px;
+    background: #00AEEF !important;
+    display:block;
+}
+
+@media screen and (max-width: 1199px){
+	.courses-statistics-section .course-count,
+	.courses-statistics-section .satisfaction-per {
+		font-size: 56px;
+	}
+}
+@media screen and (max-width: 767px){
+	.home-banner-section .banner-title-section h1 {
+		font-size: 60px !important;
+	}
+	.home-banner-section .banner-title-section h2 {
+		font-size: 28px !important;
+	}
+	.home-banner-section .banner-title-section p {
+		font-size: 18px !important;
+	}
+}
+@media screen and (max-width: 575px){
+	.home-banner-section .banner-title-section h1 {
+		font-size: 48px !important;
+	}
+	.home-banner-section .banner-title-section h2 {
+		font-size: 19px !important;
+	}
+	.home-banner-section .banner-title-section p {
+		font-size: 14px !important;
+	}
+}
+@media screen and (max-width: 500px){
+	.courses-statistics-section .course-count,
+	.courses-statistics-section .satisfaction-per {
+		font-size: 46px;
+	}
+}
+@media screen and (max-width: 405px){
+	.section-title h3 {
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.section-title h2 {
+		font-size: 28;
+	}
+	.section-title p {
+		font-size: 14px;
+	}
+	.courses-statistics-section .course-count,
+	.courses-statistics-section .satisfaction-per {
+		font-size: 35px;
+	}
+}
